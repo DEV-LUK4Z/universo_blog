@@ -1,0 +1,62 @@
+@import url(bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+ /* =================== STYLE DO HEADER =================== */
+ #header{
+    background-color: #0a2753;
+}
+
+#header .navbar-brand{
+    padding: 0;
+    color: #fff;
+}
+
+#header .nav-link{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#header .nav-link:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    transition: ease-in-out 0.2s;
+}
+
+/* =================== STYLE DO MAIN  =================== */
+main{
+    min-height: 100px;
+    padding: 40px 0px;
+}
+
+main h5{
+    text-align: justify;
+}
+
+/* =================== STYLE DO FOOTER  ===================*/
+.main-footer{
+    background-color: #0a2753;
+    color: #fff;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.main-footer a{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+/*  responsividade para resolver o problema do footer no meio da tela  */
+@media only screen and (min-width: 370px){
+    .main-footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}

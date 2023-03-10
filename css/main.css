@@ -1,0 +1,117 @@
+@import url(bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.bg-img{
+    background-image: url(/assets/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+ /* =================== STYLE DO HEADER  ===================*/
+#header{
+    color: #fff;
+}
+
+#header .navbar-brand{
+    padding: 0;
+    color: #fff;
+}
+
+#header .nav-link{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#header .nav-link:hover{
+    background-color: #0000005e;
+    transition: ease-in-out 0.2s;
+}
+
+
+/* =================== STYLE DO CAROUSEL =================== */
+#carousel{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#slide .carousel-caption{
+    background-color: rgba(0, 0, 0, 0.295);
+    border-radius: 20px;
+}
+#slide .carousel-caption:hover{
+    background-color: rgba(0, 0, 0, 0.600);
+}
+
+#slide img{
+    width: auto;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#slide h1{
+    font-weight: bold;
+}
+
+#slide p{
+    font-size: 25px;
+}
+
+#slide a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* =================== STYLE DO DESTAQUE =================== */
+#destaques .card{
+    width: 100%;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    min-height: 90%;
+}
+
+#destaques .card-body{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+#destaques .card img{
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* =================== STYLE DO FOOTER  ===================*/
+.main-footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #0d0d7c;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 50px;
+}
+
+.main-footer a{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.main-footer .topo{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
